@@ -45,10 +45,10 @@ export class VideoParser extends plugin {
                         const videoLink = data.data[0].video_link;
                         await e.reply(segment.video(videoLink));
                     } else {
-                        await e.reply("视频解析失败，未找到视频资源。");
+                        await e.reply("视频解析失败并没有找到相关链接");
                     }
                 } catch (error) {
-                    await e.reply("解析过程中出现错误，请稍后再试。");
+                    await e.reply("解析错误 请重试");
                 }
             }
         } else {
