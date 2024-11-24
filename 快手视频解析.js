@@ -1,6 +1,9 @@
 import common from '../../lib/common/common.js';
 import fetch from "node-fetch";
-
+//作者：知鱼
+//博客：http://ocoa.cn
+//QQ群：861646887
+//GitHub：https://github.com/ovoox
 export class VideoParser extends plugin {
     constructor() {
         super({
